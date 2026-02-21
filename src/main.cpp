@@ -1,6 +1,6 @@
 #include <Arduino.h>
 /**
- * @file main.ino
+ * @file main.cpp
  * @brief Embedded Force Measurement System using FSR
  * @author YOUR_NAME
  * @date YYYY-MM-DD
@@ -12,6 +12,7 @@
 
  // TODO 1:
  // Define FSR analog pin (Use A0)
+constexpr int FSR_PIN = A0;
 
  // TODO 2:
  // Create variable to store sensor reading
