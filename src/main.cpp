@@ -46,10 +46,19 @@ void loop() {
 
     // TODO 7:
     // Apply simple threshold logic (e.g., detect pressure)
-
     // TODO 8:
     // Print pressure detection message
+    if (fsrValue >300)
+    {
+        Serial.println("Pressure detected");
+    }
+    else
+    {
+        Serial.println("Pressure not detected");
+    }
+
 
     // TODO 9:
     // Add delay (500ms or 1 second)
+    delay(500);
 }
