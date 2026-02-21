@@ -2,8 +2,8 @@
 /**
  * @file main.cpp
  * @brief Embedded Force Measurement System using FSR
- * @author YOUR_NAME
- * @date YYYY-MM-DD
+ * @author Piyush_sengar
+ * @date 2026-02-21
  *
  * @details
  * Reads analog force data from FSR sensor and
